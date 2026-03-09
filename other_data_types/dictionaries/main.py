@@ -1,0 +1,7 @@
+grocery_inventory = {"milk": (113,"Diary"), "Eggs": (116,"Diary"), "Bread": (117,"Bakery"), "Apples": (141,"Produce")}
+bread_details = grocery_inventory["Bread"]
+print("Details of Bread:", bread_details)
+grocery_inventory.update({"Cookies": (143,"Bakery")})
+print("Inventory after adding cookies:", grocery_inventory)
+grocery_inventory.pop("Eggs")
+print("Inventory after removing Eggs:", grocery_inventory)
