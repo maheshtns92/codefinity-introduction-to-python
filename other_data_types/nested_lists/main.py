@@ -4,4 +4,7 @@ vegetables.append("carrots")
 vegetables.append("cucumbers")
 vegetables.sort()
 print("Updated Vegetable Inventory:", vegetables)
-if
+"carrots" in vegetables
+print("carrots are already in the list")
+"cucmbers" in vegetables
+print("cucumbers are already in the list")
